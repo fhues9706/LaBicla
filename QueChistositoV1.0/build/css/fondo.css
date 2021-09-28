@@ -1,0 +1,117 @@
+body{
+	background:url(../images/17.jpeg);
+	background-repeat: no-repeat;
+	background-size:cover;
+}
+
+#principal{
+ width: 900px;
+ height: auto;overflow: hidden;;   
+ border: 1px solid #000;
+ margin: auto;
+}
+
+header{
+    width: 900px;
+    height: 100px;
+    border: 1px solid #000;
+    text-align: center;
+}
+
+#logo{
+    width: 900px;
+    height: 80px;
+    border: 1px solid #000;
+    float: left;
+    background-color:orange;
+    color:black;
+}
+.menu{
+    width: 900px;
+    height: 55px;
+    border:1px solid#000 ;
+    float: right;
+    background-color: olive;
+}
+
+.menu ul{
+
+}
+.menu ul li{
+    list-style:none;
+    float: left;
+
+}
+
+.menu ul li a{
+    text-decoration: none;
+    padding: 10px 50px;   
+    color: white;
+}
+#categorias{
+    width: 900px;
+    height: auto;
+    overflow: hidden;
+    border:1px solid ;
+
+}
+
+.uno{
+    width: 280px;
+    height: 300px;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    float:left;
+    padding: 5px;
+    text-align: justify;
+}
+
+.dos{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.tres{
+	margin-left:30px;
+}
+.leer-mas{
+    border:1px solid#006699;
+    text-decoration: none;
+    padding: 10px 20px 10px 20px;
+    margin: 10PX;
+}
+.leer-mas:hover{
+   background-color: saddlebrown;
+   color:#fff;
+   transition:background 1s, color 1s;
+}
+
+#info{
+    width: 900px;
+    height: auto;
+    overflow: hidden;
+    border:1px solid #c0c0c0;
+    margin-top:10px ;
+}
+#izq{
+    width: 585px;
+    height: auto;overflow: hidden;
+    border: 1px solid #000;
+    float: left;
+
+}
+#der{
+    width:290px ;
+    height: auto;overflow: hidden;
+    border:1px solid#000;
+    float: right;
+}
+
+#hw{
+    text-align: center;
+}
+
+#chido:hover{
+    background-color:yellowgreen;
+   color:#fff;
+   transition:background 1s, color 1s;
+}
